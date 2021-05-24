@@ -74,4 +74,6 @@ $ ./darknet detector test lpscr.data lpscr-net.cfg lpscr-net.weights -thresh .6 
 
 ## Status atual do trabalho:
 
-Foi feita uma apresentação do projeto como descrito pelo artigo, bem como o objetivo deste trabalho, para a turma de Processamento de Imagens 2020.1. Sugestões foram feitas pelo professor. Técnicas de OCR estão sendo estudadas pela equipe no momento. 
+Update 1: Foi feita uma apresentação do projeto como descrito pelo artigo, bem como o objetivo deste trabalho, para a turma de Processamento de Imagens 2020.1. Sugestões foram feitas pelo professor. Técnicas de OCR estão sendo estudadas pela equipe no momento.
+
+Update 2: Foi feito um notebook no Google Colab, posteriormente adicionado a esse repositório, contendo o código apresentado pelo artigo, juntamente com a melhoria feita. Optamos por utilizar a biblioteca PyTesseract, derivada do projeto do Google Tessaract OCR. Obtivemos bons resultados, que superaram os obtidos pela rede do artigo para as imagens de teste que estão neste repositório. Um vídeo com a apresentação do trabalho foi gravado e enviado para o professor da disciplina.
